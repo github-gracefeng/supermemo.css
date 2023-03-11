@@ -1,0 +1,224 @@
+BODY
+{
+BACKGROUND-COLOR: #394264;
+COLOR: #f9fdf1;
+FONT-FAMILY: "????";
+FONT-STYLE: normal;
+FONT-WEIGHT: normal;
+FONT-SIZE: 14pt;
+border:1px solid #343142
+}
+
+html {
+height: 100%;
+width: 100%;
+overflow: hidden;
+}
+
+a:link {color:#FF7F27}
+a:visited {color:#ceffd8}
+a:hover {color:#FFF200}
+a:active {color:#fff4ca}
+
+HR {
+color:#0c1710;
+}
+
+.img{
+width:100%;
+height:100%;
+}
+
+img.origin_image {
+	width:100%;
+	height:100%;
+}
+
+.Fuck_Lexicon {
+	position:absolute;
+	top:-9999px;
+	left:-9999px;
+	color:burlywood;
+
+}
+
+.jigsawlatex1 {
+	width:1.5%;
+	height:auto;
+}
+h1 {
+	COLOR: #1bebc1;
+	padding:5px 0;
+	font-weight:800;
+	border-bottom:1px solid #343142;
+	FONT-WEIGHT: bold;
+}
+h2 {
+	COLOR: #1bebc1;
+	padding:5px 0;
+	font-weight:800;
+	FONT-WEIGHT: bold;
+	border-bottom:1px solid #343142;
+}
+h3 {
+	COLOR: #1bebc1;
+	padding:5px 0;
+	font-weight:800;
+	FONT-WEIGHT: bold;
+	border-bottom:1px solid #343142;
+}
+h4 {
+	COLOR: #1bebc1;
+	padding:5px 0;
+	font-weight:800;
+	FONT-WEIGHT: bold;
+	border-bottom:1px solid #343142;
+}
+h5 {
+	COLOR: #1bebc1;
+	padding:5px 0;
+	font-weight:800;
+	FONT-WEIGHT: bold;
+	border-bottom:1px solid #343142;
+	border-right:0px;
+}
+h6 {
+	COLOR: #1bebc1;
+	padding:5px 0;
+	font-weight:800;
+	FONT-WEIGHT: bold;
+	border-bottom:1px solid #343142;
+	border-right:0px;
+}
+.Cloze {
+	COLOR: #FFF200;
+	FONT-WEIGHT: bold;
+	margin:4px;
+}
+.clozed {
+	COLOR: #FFF200;
+	FONT-WEIGHT: bold;
+}
+.Extract {
+	BACKGROUND-COLOR: #3c384f;
+}
+.headers {
+	BACKGROUND-COLOR: #FF7F27;
+	COLOR: #343142;
+	FONT-WEIGHT: bold;
+}
+.RefText {
+	BACKGROUND-COLOR: #dcd100;
+	COLOR: #343142;
+	FONT-WEIGHT: bold;
+}
+.Reference
+{
+COLOR: #FFF200;
+FONT-SIZE: 10pt;
+}
+.Highlight
+{
+	COLOR: #FF7F27;
+FONT-WEIGHT: bold;
+FONT-SIZE: 13pt;
+}
+.SearchHighlight
+{
+
+COLOR: #EB88EE;
+;
+FONT-STYLE: normal;
+FONT-WEIGHT: bold;
+FONT-SIZE: 14pt;
+}
+.SearchHighlight1 {
+	COLOR:#a0d3ff;
+	FONT-STYLE:normal;
+	FONT-WEIGHT:bold;
+}
+.Ignore {
+	BACKGROUND-COLOR: #3c384f;
+	COLOR: #3c384f;
+}
+table {
+	margin:4rem auto;
+}
+.TableLabel
+{
+BACKGROUND-COLOR: #CCCCCC;
+COLOR: #525252;
+;
+FONT-STYLE: normal;
+FONT-WEIGHT: normal;
+FONT-SIZE: 14pt;
+}
+.hint {
+	BACKGROUND-COLOR:#E0E0E0;
+}
+.note {
+	FONT-SIZE:smaller;
+}
+.term {
+	background-color:#faeecf;
+	padding-right:0.3em;
+}
+.hashtag {
+	border-radius:15px;
+	background-color:#C0D9D9;
+	padding-right:0.3em;
+
+	FONT-SIZE:12pt;
+	FONT-STYLE:italic;
+}
+.english_tag {
+	border-radius:15px;
+	background-color:#C0D9D9;
+	padding-right:0.3em;
+	FONT-SIZE:11pt;
+
+}
+div.mytag {
+	BACKGROUND-COLOR:#DAB6B6;
+	COLOR:#000000;
+	FONT-WEIGHT:normal;
+	FONT-SIZE:9.3333333333pt;
+	float:right;
+	padding:0 .3em 0 .3em;
+	margin-right:.3em;
+	border-bottom:3px solid #343142;
+}
+ul {
+	border-left:2pt solid #343142;
+	position:relative;
+	padding-left:35pt;
+	padding-top:0pt;
+	margin-top:5pt;
+	margin-bottom:5pt;
+	margin-left:2.5pt;
+}
+ol {
+	list-style-type:decimal;
+	border-left:2pt solid #343142;
+	position:relative;
+	padding-left:35pt;
+	padding-top:0pt;
+	margin-top:5pt;
+	margin-bottom:5pt;
+	margin-left:2.5pt;
+}
+.grey {
+	BACKGROUND-COLOR:#DAB6B6;
+	COLOR:#000000;
+	FONT-STYLE:italic;
+	FONT-WEIGHT:normal;
+	FONT-SIZE:12pt;
+}
+.schedule {
+	border-radius:15px;
+	background-color:#C0D9D9;
+	padding-right:0.3em;
+	FONT-SIZE:14pt;
+
+background-color: #FAF9DE;
+}
