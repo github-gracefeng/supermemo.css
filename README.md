@@ -1,7 +1,3 @@
----
-typora-copy-images-to: upload
----
-
 # supermemo.css
 
 Day and night look made for Supermemo
