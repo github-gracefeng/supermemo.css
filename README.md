@@ -10,11 +10,11 @@
 
 ### 预览
 
-**白天：**windows主题下的[supermemo-light.css](https://github.com/github-gracefeng/supermemo.css/blob/main/supermemo-light.css)
+白天：windows主题下的[supermemo-light.css](https://github.com/github-gracefeng/supermemo.css/blob/main/supermemo-light.css)
 
 ![img](https://files.getquicker.net/_sitefiles/kb/sharedaction/5466a227-10bf-4177-1528-08db213847bc/2023/03/11/125659_680860_windows-light.png)
 
-**夜晚：**Tabletdark主题的[supermemo-night-tabletdark.css](https://github.com/github-gracefeng/supermemo.css/blob/main/supermemo-night-tabletdark.css)
+夜晚：Tabletdark主题的[supermemo-night-tabletdark.css](https://github.com/github-gracefeng/supermemo.css/blob/main/supermemo-night-tabletdark.css)
 
 ![img](https://files.getquicker.net/_sitefiles/kb/sharedaction/5466a227-10bf-4177-1528-08db213847bc/2023/03/11/125902_680860_tabledark.png)
 
