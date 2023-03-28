@@ -13,13 +13,11 @@
 白天：windows主题下的[supermemo-light.css](https://github.com/github-gracefeng/supermemo.css/blob/main/supermemo-light.css)
 ![image](https://user-images.githubusercontent.com/119791464/228283376-12a1fc4b-6117-449d-972b-736615cc5922.png)
 夜晚：Tabletdark主题的[supermemo-night-tabletdark.css](https://github.com/github-gracefeng/supermemo.css/blob/main/supermemo-night-tabletdark.css)
+![image](https://user-images.githubusercontent.com/119791464/228284032-8d805984-864b-46cb-bf96-e8b62f8bc59e.png)
 
 
 ### 准备
 
-1. [**前往github下载日夜间css文件**](https://github.com/github-gracefeng/supermemo.css)
+1. 下载日夜间css文件
 2. 下载完成后把css文件和其他文件位置填入动作设置当中
-
-![img](https://raw.githubusercontent.com/github-gracefeng/picture/PicGo/130225_680860_image.png?token=A4R562BTWIW76ACN2C3U57TECKEGW)
-
 开始动作后选择白天或夜晚，等待更换结束
