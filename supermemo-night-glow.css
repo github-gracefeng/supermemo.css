@@ -1,0 +1,389 @@
+BODY {
+    BACKGROUND-COLOR: #191D22;
+    COLOR: #fffef7;
+    FONT-FAMILY: "华文宋体";
+    FONT-STYLE: normal;
+    FONT-WEIGHT: normal;
+    FONT-SIZE: 15pt;
+    border: 1px solid #576372
+}
+
+/* 设置 html 元素的样式 */
+html {
+    height: 100%;
+    /* 高度 */
+    width: 100%;
+    /* 宽度 */
+    overflow: hidden;
+    /* 隐藏横向溢出内容 */
+    white-space: pre-wrap;
+    /* 元素内部保留空格和换行 */
+    word-wrap: break-word;
+    /* 在单词之间断开换行 */
+}
+
+a:link {
+    color: #f0e68c !important;
+}
+
+a:visited {
+    color: #3dd7d5 !important;
+}
+
+a:hover {
+    color: #ff7f50 !important;
+}
+
+a:active {
+    color: #3dd7d5 !important;
+}
+
+HR {
+    color: #3f4854;
+}
+
+/* 设置 img 元素和.img类的样式 */
+img,
+.img {
+    width: auto;
+    /* 宽度自适应 */
+    height: auto;
+    /* 高度自适应 */
+    display: block;
+    /* 显示方式为块级元素 */
+    margin: auto;
+    /* 外边距居中对齐 */
+    outline: none;
+    /* 不显示轮廓线 */
+    BACKGROUND-COLOR: #576372;
+    /* 图像的背景颜色 */
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    COLOR: #3dd7d5;
+    border-bottom: 1px solid #3f4854;
+    padding: 5px 0;
+    font-weight: 800;
+}
+
+/* 标题字体大小调整 */
+h1 {
+    font-size: 30px;
+}
+
+h2 {
+    font-size: 26px;
+}
+
+h3 {
+    font-size: 22px;
+}
+
+h4 {
+    font-size: 20px;
+}
+
+h5 {
+    font-size: 18px;
+}
+
+h6 {
+    font-size: 16px;
+}
+
+@font-face {
+    font-family: 'Noto Color Emoji';
+    src: url(https://gitcdn.xyz/repo/googlefonts/noto-emoji/master/fonts/NotoColorEmoji.ttf);
+}
+
+strong {
+    FONT-FAMILY: "华文中宋";
+}
+
+/* 设置 .Cloze 类（挖空和被挖空）的样式*/
+.Cloze,
+.clozed {
+    COLOR: #ff7f50;
+    FONT-WEIGHT: bold;
+}
+
+.Extract {
+    BACKGROUND-COLOR: #242930;
+}
+
+.headers {
+    BACKGROUND-COLOR: #ff7f50;
+    COLOR: #3f4854;
+    FONT-WEIGHT: bold;
+}
+
+.RefText {
+    BACKGROUND-COLOR: #dcd100;
+    COLOR: #3f4854;
+    FONT-WEIGHT: bold;
+}
+
+.Reference {
+    COLOR: #43eae7;
+    FONT-SIZE: 10pt;
+}
+
+.Highlight {
+    BACKGROUND-COLOR: #dcd100;
+    COLOR: #3f4854;
+    FONT-WEIGHT: bold;
+}
+
+.SearchHighlight {
+
+    COLOR: #EB88EE;
+    ;
+    FONT-STYLE: normal;
+    FONT-WEIGHT: bold;
+    FONT-SIZE: 14pt;
+}
+
+.SearchHighlight1 {
+    COLOR: #a0d3ff;
+    FONT-STYLE: normal;
+    FONT-WEIGHT: bold;
+}
+
+.Ignore {
+    BACKGROUND-COLOR: #242930;
+    color: #242930
+}
+
+.Ignore a {
+    COLOR: #242930;
+}
+
+table,
+td,
+th {
+    text-align: center;
+    width: auto;
+    border: 1px solid #191D22;
+}
+
+table {
+    margin: 4rem auto;
+    border-collapse: collapse;
+    float: auto;
+    /* 根据容器自动悬浮 */
+}
+
+th {
+    COLOR: #3dd7d5;
+    background: #576372;
+
+}
+
+td {
+    width: auto;
+    box-sizing: border-box;
+    text-align: center;
+    background: #242930;
+}
+
+.TableLabel {
+    BACKGROUND-COLOR: #CCCCCC;
+    COLOR: #525252;
+    ;
+    FONT-STYLE: normal;
+    FONT-WEIGHT: normal;
+    FONT-SIZE: 14pt;
+}
+
+.hint {
+    BACKGROUND-COLOR: #E0E0E0;
+}
+
+.note {
+    FONT-SIZE: smaller;
+}
+
+.term {
+    background-color: #faeecf;
+    padding-right: 0.3em;
+}
+
+/* 有序和无序列表 */
+ul,
+ol {
+    border-left: 2pt solid #3f4854;
+    position: relative;
+    padding-left: 35pt;
+    padding-top: 0pt;
+    margin-top: 5pt;
+    margin-bottom: 5pt;
+    margin-left: 2.5pt;
+}
+
+.grey {
+    BACKGROUND-COLOR: #DAB6B6;
+    COLOR: #000000;
+    FONT-STYLE: italic;
+    FONT-WEIGHT: normal;
+    FONT-SIZE: 12pt;
+}
+
+.schedule {
+    border-radius: 15px;
+    background-color: #C0D9D9;
+    padding-right: 0.3em;
+    FONT-SIZE: 14pt;
+    background-color: #FAF9DE;
+}
+
+/* 视频*/
+iframe {
+    width: auto;
+    height: auto;
+    margin: 0 auto;
+}
+
+/* 音频*/
+embed {
+    width: 300px;
+    height: 45px;
+}
+
+PRE {
+    OVERFLOW: auto;
+    BORDER-TOP: #3f4854 1px solid;
+    BORDER-RIGHT: #3f4854 1px solid;
+    BACKGROUND: #121518 center top;
+    BORDER-BOTTOM: #3f4854 1px solid;
+    PADDING-BOTTOM: 10px;
+    PADDING-TOP: 10px;
+    PADDING-LEFT: 15px;
+    BORDER-LEFT: #3f4854 4px solid;
+    MARGIN: 15px auto;
+    PADDING-RIGHT: 15px;
+    TEXT-INDENT: 0px;
+    FONT-FAMILY: "Lucida Console";
+}
+
+CODE {
+    border: 0px;
+    margin: 0px;
+    padding: 0.2em;
+    BACKGROUND: #121518 center top;
+    border-radius: 3px;
+    font-weight: bold;
+    FONT-FAMILY: "Lucida Console";
+    font-size: 13px;
+}
+
+button {
+    color: #191D22;
+    background-color: #ff7f50;
+    border: 0px;
+    margin: 0px 0px 5px 5px;
+    padding: 4px 10px;
+    font-weight: bold;
+    font-size: 13px;
+    text-align: center;
+    border-radius: 2px;
+    orphans: 2;
+    widows: 2;
+    word-spacing: 0px;
+    border-radius: 8px;
+}
+
+/* 根据词性高亮文本 */
+/* noun 名词
+  NN Noun, singular or mass 常用名词 单数形式
+	  NNS Noun, plural 常用名词 复数形式
+	  NNP Proper noun, singular 专有名词，单数形式
+	  NNPS Proper noun, plural 专有名词，复数形式*/
+.noun,
+.NN,
+.NNS,
+.NNP,
+.NNPS {
+    color: #3dd7d5;
+}
+
+/* pronoun 代词
+  PRP Personal pronoun 人称代词
+	  PRP Possessive pronoun 所有格代名词
+	  WP Wh-pronoun 代词（who whose which）
+	  WRB Wh-adverb 疑问代词（how where when）
+	  DT Determiner 限定词（this,those,such）不定限定词（any,each,every,either,all,many,other）
+	  */
+.pronoun,
+.PRP,
+.WP,
+.WRB,
+.DT {
+    color: #ff00ff;
+}
+
+/* Verb 动词
+  MD Modal 情态助动词
+	  VB Verb, base form 动词基本形式
+	  VBD Verb, past tense 动词过去式
+	  VBG Verb, gerund or present participle 动名词和现在分词
+	  VBN Verb, past participle 过去分词
+	  VBN Verb, non-3rd person singular present 动词非第三人称单数
+	  VBZ Verb, 3rd person singular present 动词第三人称单数
+	  VBP Verb, non-3rd person singular present 动词非第三人称单数
+	  */
+.verb,
+.VB,
+.VBG,
+.VBD,
+.VBZ,
+.VBN,
+.VBZ,
+.VBP,
+.MD {
+    color: #00a6ff;
+}
+
+/* Adjective 形容词
+  JJ Adjective 形容词或序数词
+	  JJR Adjective, comparative 形容词比较级
+	  JJS Adjective, superlative 形容词最高级 */
+.adjective,
+.JJ,
+JJ,
+JJS {
+    color: #ff5100;
+}
+
+/* Adverb 副词
+  RB Adverb 副词
+	  RBR Adverb, comparative 副词比较级
+	  RBS Adverb, superlative 副词最高级
+	  */
+.adverb,
+.RB,
+.RBR,
+.RBS {
+    color: #00c20d;
+}
+
+/*TO to 作为介词或不定式格式
+  IN Preposition or subordinating conjunction 介词或从属连词
+  CC Coordinating conjunction 连接词*/
+.preposition,
+.IN,
+.TO,
+.conjunction,
+.CC {
+    color: #ff8ea1;
+}
+
+/*UH Interjection 感叹词 */
+.interjection,
+.UH {
+    color: #873d00;
+}

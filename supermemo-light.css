@@ -1,225 +1,432 @@
-BODY
-{
-BACKGROUND-COLOR: #FFF5EA;
-COLOR: #401b00;
-FONT-FAMILY: "????";
-FONT-STYLE: normal;
-FONT-WEIGHT: normal;
-FONT-SIZE: 14pt;
-border:1px solid #e9d4c3;
+/* 设置 HTMl的body 元素的样式 */
+BODY {
+	BACKGROUND-COLOR: #fffdfa;
+	/* 背景颜色 */
+	COLOR: #401b00;
+	/* 字体颜色 */
+	FONT-FAMILY: "华文宋体";
+	/* 字体 */
+	FONT-STYLE: normal;
+	/* 字体样式 */
+	FONT-WEIGHT: normal;
+	/* 字体粗细 */
+	FONT-SIZE: 15pt;
+	/* 字体大小 */
+	border: 1px solid #CDCDCD;
+	/* 边框 */
+	overflow: hidden;
+	/* 隐藏横向溢出内容 */
 }
 
+/* 设置 html 元素的样式 */
 html {
-height: 100%;
-width: 100%;
-overflow: hidden;
+	height: 100%;
+	/* 高度 */
+	width: 100%;
+	/* 宽度 */
+	overflow: hidden;
+	/* 隐藏横向溢出内容 */
+	white-space: pre-wrap;
+	/* 元素内部保留空格和换行 */
+	word-wrap: break-word;
+	/* 在单词之间断开换行 */
 }
 
-a:link {color:#6600CC}
-a:visited {color:#6600CC}
-a:hover {color:#0ecc00}
-a:active {color:#ECAB65}
+/* 设置链接元素的样式 */
+a:link {
+	color: #098300 !important;
+}
 
+/* 未访问过的链接颜色 */
+a:visited {
+	color: #9723d5 !important;
+}
+
+/* 已访问过的链接颜色 */
+a:hover {
+	color: #fe9a2f !important;
+}
+
+/* 鼠标悬停时的链接颜色 */
+a:active {
+	color: #098300 !important;
+}
+
+/* 鼠标点击时的链接颜色 */
+/* 设置 HR 元素的样式 */
 HR {
-color:#DEE9E2;
+	color: #CDCDCD;
 }
 
-.img{
-width:100%;
-height:100%;
+/* 设置 img 元素和.img类的样式 */
+img,
+.img {
+	width: auto;
+	/* 宽度自适应 */
+	height: auto;
+	/* 高度自适应 */
+	display: block;
+	/* 显示方式为块级元素 */
+	margin: auto;
+	/* 外边距居中对齐 */
+	outline: none;
+	/* 不显示轮廓线 */
 }
 
-img.origin_image {
-	width:100%;
-	height:100%;
-}
-
-.instantpaste {
-}
-
-.Fuck_Lexicon {
-	position:absolute;
-	top:-9999px;
-	left:-9999px;
-	color:green;
-}
-
-.jigsawlatex1 {
-	width:1.5%;
-	height:auto;
-}
-h1 {
-	padding:5px 0;
-	font-weight:800;
-	COLOR: #2F5E5E;
-	border-bottom:1px solid #e9d4c3 ;
-}
-h2 {
-	padding:5px 0;
-	font-weight:800;
-	COLOR: #2F5E5E;
-	border-bottom:1px solid #e9d4c3 ;
-}
-h3 {
-	padding:5px 0;
-	font-weight:800;
-	COLOR: #2F5E5E;
-	border-bottom:1px solid #e9d4c3 ;
-}
-h4 {
-	padding:5px 0;
-	font-weight:800;
-	COLOR: #2F5E5E;
-	border-bottom:1px solid #e9d4c3 ;
-}
-h5 {
-	padding:5px 0;
-	font-weight:800;
-	COLOR: #2F5E5E;
-	border-bottom:1px solid #e9d4c3 ;
-	border-right:0px;
-}
+/* 设置header标题元素 h1-h6 的样式*/
+h1,
+h2,
+h3,
+h4,
+h5,
 h6 {
-	padding:5px 0;
-	font-weight:800;
-	COLOR: #2F5E5E;
-	border-bottom:1px solid #e9d4c3 ;
-	border-right:0px;
+	COLOR: #2f5e59;
+	/* 字体颜色*/
+	border-bottom: 1px solid #CDCDCD;
+	/* 下边框*/
+	padding: 5px 0;
+	font-weight: 800;
+	counter-increment: heading;
 }
-.Cloze {
-	BACKGROUND-COLOR:#FFFEAC;
-	COLOR:#ED6733;
-	FONT-WEIGHT:bold;
-	margin:4px;
+/* 标题字体大小调整 */
+h1 {
+	font-size: 30px;
 }
+
+h2 {
+	font-size: 26px;
+}
+
+h3 {
+	font-size: 22px;
+}
+
+h4 {
+	font-size: 20px;
+}
+
+h5 {
+	font-size: 18px;
+}
+
+h6 {
+	font-size: 16px;
+	font-weight: bold;
+}
+
+/* 设置 strong 元素的样式*/
+strong {
+	FONT-FAMILY: "华文中宋";
+}
+
+/* 设置 .Cloze 类（挖空）的样式*/
+.Cloze,
 .clozed {
-	BACKGROUND-COLOR:#FFFEAC;
-	COLOR:#ED6733;
+	BACKGROUND-COLOR: #FFFEAC;
+	COLOR: #ED6733;
+	FONT-WEIGHT: bold;
+	/* 粗体字体 */
 }
-.Extract {
-	BACKGROUND-COLOR: #CCDFD3;
+
+/* 设置 .extract 类（摘录）的样式*/
+.extract {
+	BACKGROUND-COLOR: #F0F0F0;
 }
+
+/* 设置 .headers 类的样式*/
 .headers {
 	BACKGROUND-COLOR: #f3c2ba;
 	COLOR: #000000;
 	FONT-WEIGHT: bold;
-}
-.RefText
-{
-BACKGROUND-COLOR: #FFFEAC;
-COLOR: #000000;
-FONT-WEIGHT: bold;
-FONT-SIZE: 14pt;
+	/* 粗体字体 */
 }
 
-.Highlight
-{
-	BACKGROUND-COLOR:#f3c2ba;
+/* 设置 .RefText 类的样式*/
+.RefText {
+	BACKGROUND-COLOR: #FFFEAC;
+	COLOR: #000000;
+	FONT-WEIGHT: bold;
+	/* 粗体字体 */
+	FONT-SIZE: 14pt;
+}
+
+/* 设置 .Highlight 类的样式*/
+.Highlight {
+	BACKGROUND-COLOR: #f3c2ba;
 	COLOR: #874343;
+	FONT-WEIGHT: bold;
+	/* 粗体字体 */
+	FONT-SIZE: 13pt;
+}
+
+/* 设置 .SearchHighlight 类（搜索高亮）的样式*/
+.SearchHighlight {
+	BACKGROUND-COLOR: #9cd0f0;
+	COLOR: #400000;
+	FONT-WEIGHT: bold;
+	/* 粗体字体 */
+	FONT-SIZE: 13pt;
+}
+
+/* 设置 .SearchHighlight1 类（搜索高亮）的样式*/
+.SearchHighlight1 {
+	BACKGROUND-COLOR: #D7C7F5;
+	COLOR: #450655;
 	FONT-WEIGHT: bold;
 	FONT-SIZE: 13pt;
 }
-.SearchHighlight
-{
-BACKGROUND-COLOR: #9cd0f0;
-COLOR: #400000;
-FONT-WEIGHT: bold;
-FONT-SIZE: 13pt;
+
+/* 设置 .Ignore 类（忽略）的样式 */
+.Ignore {
+	BACKGROUND-COLOR: #CDCDCD;
+	/* 背景颜色 */
+	COLOR: #CDCDCD;
+	/* 字体颜色 */
 }
-.SearchHighlight1
-{
-BACKGROUND-COLOR: #D7C7F5;
-COLOR: #450655;
-FONT-WEIGHT: bold;
-FONT-SIZE: 13pt;
+
+/* 设置 .Ignore 类下的 a 元素的样式 */
+.Ignore a {
+	color: #CDCDCD;
+	/* 字体颜色 */
 }
-.Ignore
-{
-BACKGROUND-COLOR: #e9d4c3;
-COLOR: #e9d4c3;
-FONT-STYLE: normal;
-FONT-WEIGHT: normal;
-FONT-SIZE: 16pt;
+
+/* 设置 table、td 和 th 元素（表格）的样式 */
+table,
+td,
+th {
+	text-align: center;
+	/* 文本居中对齐 */
+	width: auto;
+	/* 宽度自适应 */
+	border: 1px solid #CDCDCD;
+	/* 边框 */
 }
+
+/* 设置 table 元素的样式 */
 table {
-	margin:4rem auto;
+	FONT-FAMILY: "华文中宋";
+	/* 字体 */
+	margin: 4rem auto;
+	/* 外边距居中对齐 */
+	border-collapse: collapse;
+	/* 边框合并为一条线 */
+	float: auto;
+	/* 根据容器自动悬浮 */
 }
-.TableLabel
-{
-BACKGROUND-COLOR: #CCDFD3;
-COLOR: #65bc61;
-FONT-FAMILY: Arial;
-FONT-SIZE: 14pt;
+
+/* 设置 th 元素的样式 */
+th {
+	COLOR: #4c6d6d;
+	/* 字体颜色 */
+	background: #CDCDCD;
+	/* 背景颜色 */
 }
-.hint {
-	BACKGROUND-COLOR:#e9d4c3;
+
+/* 设置 td 元素的样式 */
+td {
+	width: auto;
+	/* 宽度自适应 */
+	box-sizing: border-box;
+	text-align: center;
+	/* 文本居中对齐 */
 }
-.note {
-	FONT-SIZE:smaller;
+
+/* 设置 .TableLabel 类的样式*/
+.TableLabel {
+	BACKGROUND-COLOR: #F0F0F0;
+	/* 背景颜色*/
+	COLOR: #65bc61;
+	/* 字体颜色*/
+	FONT-SIZE: 14pt;
+	/* 字体大小*/
 }
-.term {
-	background-color:#faeecf;
-	padding-right:0.3em;
-}
-.hashtag {
-	border-radius:15px;
-	background-color:#CCDFD3;
-	padding-right:0.3em;
-	FONT-SIZE:12pt;
-	FONT-STYLE:italic;
-}
-.english_tag {
-	border-radius:15px;
-	background-color:#CCDFD3;
-	padding-right:0.3em;
-	FONT-SIZE:11pt;
-	FONT-STYLE:italic;
-}
-div.mytag {
-	BACKGROUND-COLOR:#DAB6B6;
-	COLOR:#000000;
-	FONT-STYLE:italic;
-	FONT-WEIGHT:normal;
-	FONT-SIZE:9.3333333333pt;
-	float:right;
-	padding:0 .3em 0 .3em;
-	margin-right:.3em;
-	border-bottom:3px solid#e9d4c3 ;
-}
-ul {
-	border-left:2pt solid #e9d4c3 ;
-	position:relative;
-	padding-left:35pt;
-	padding-top:0pt;
-	margin-top:5pt;
-	margin-bottom:5pt;
-	margin-left:2.5pt;
-}
+
+/* 有序和无序列表 */
+ul,
 ol {
-	list-style-type:decimal;
-	border-left:2pt solid #e9d4c3 ;
-	position:relative;
-	padding-left:35pt;
-	padding-top:0pt;
-	margin-top:5pt;
-	margin-bottom:5pt;
-	margin-left:2.5pt;
+	border-left: 2pt solid #CDCDCD;
+	position: relative;
+	padding-left: 35pt;
+	padding-top: 0pt;
+	margin-top: 5pt;
+	margin-bottom: 5pt;
+	margin-left: 2.5pt;
 }
+
 .grey {
-	BACKGROUND-COLOR:#DAB6B6;
-	COLOR:#000000;
-	FONT-STYLE:italic;
-	FONT-SIZE:12pt;
+	BACKGROUND-COLOR: #DAB6B6;
+	COLOR: #000000;
+	FONT-SIZE: 12pt;
 }
+
 .schedule {
-	border-radius:15px;
-	background-color:#CCDFD3;
-	padding-right:0.3em;
-	FONT-SIZE:14pt;
+	border-radius: 15px;
+	background-color: #F0F0F0;
+	padding-right: 0.3em;
+	FONT-SIZE: 14pt;
 }
-.Reference
-{
-BACKGROUND-COLOR: #CCDFD3;
-COLOR: #2F5E5E;
-FONT-SIZE: 11pt;
+
+/* 设置 Reference 类,SUPERMEMOREFERENCE的样式*/
+.Reference {
+	BACKGROUND-COLOR: #F0F0F0;
+	COLOR: #2F5E5E;
+	FONT-SIZE: 10pt;
+}
+
+/* 视频*/
+iframe {
+	width: auto;
+	height: auto;
+	margin: 0 auto;
+}
+
+/* 音频*/
+embed {
+	width: 300px;
+	height: 45px;
+}
+
+/* 设置 PRE 元素的样式，用于长代码 */
+PRE {
+	FONT-FAMILY: "Lucida Console";
+	/* 字体 */
+	OVERFLOW: hidden;
+	/* 溢出内容自动滚动 */
+	white-space: pre-wrap;
+	word-wrap: break-word;
+	width: 100%;
+	/* 宽度 */
+	BORDER-TOP: #CDCDCD 1px solid;
+	/* 上边框 */
+	BORDER-RIGHT: #CDCDCD 1px solid;
+	/* 右边框 */
+	BACKGROUND: #fffdf7 center top;
+	/* 背景颜色 */
+	BORDER-BOTTOM: #CDCDCD 1px solid;
+	/* 下边框 */
+	BORDER-LEFT: #CDCDCD 4px solid;
+	/* 左边框 */
+	PADDING-BOTTOM: 10px;
+	/* 下内边距 */
+	PADDING-TOP: 10px;
+	/* 上内边距 */
+	PADDING-LEFT: 10px;
+	/* 左内边距 */
+	PADDING-RIGHT: 10px;
+	/* 右内边距 */
+}
+
+/* 设置 CODE 元素的样式，用于短代码 */
+CODE {
+	border: 0px;
+	margin: 0px;
+	padding: 0.2em;
+	BACKGROUND: #fffdf7 center top;
+	border-radius: 3px;
+	font-weight: bold;
+	FONT-FAMILY: "Lucida Console";
+	font-size: 13px;
+}
+
+/* 设置 button 元素的样式，用于按钮 */
+button {
+	color: #FFF5EA;
+	background-color: #a7d66a;
+	border: 0px;
+	margin: 0px 0px 5px 5px;
+	padding: 4px 10px;
+	font-weight: bold;
+	font-size: 13px;
+	text-align: center;
+	border-radius: 2px;
+	orphans: 2;
+	widows: 2;
+	word-spacing: 0px;
+	border-radius: 8px;
+}
+
+/* 根据词性高亮文本 */
+/* NN Noun, singular or mass 常用名词 单数形式
+	NNS Noun, plural 常用名词 复数形式
+	NNP Proper noun, singular 专有名词，单数形式
+	NNPS Proper noun, plural 专有名词，复数形式*/
+.noun,
+.NN,
+.NNS,
+.NNP,
+.NNPS {
+	color: #0073ca;
+}
+
+/* PRP Personal pronoun 人称代词
+	PRP Possessive pronoun 所有格代名词
+	WP Wh-pronoun 代词（who whose which）
+	WRB Wh-adverb 疑问代词（how where when）
+	DT Determiner 限定词（this,those,such）不定限定词（any,each,every,either,all,many,other）
+	*/
+.pronoun,
+.PRP,
+.WP,
+.WRB,
+.DT {
+	color: purple;
+}
+
+/* MD Modal 情态助动词
+	VB Verb, base form 动词基本形式
+	VBD Verb, past tense 动词过去式
+	VBG Verb, gerund or present participle 动名词和现在分词
+	VBN Verb, past participle 过去分词
+	VBN Verb, non-3rd person singular present 动词非第三人称单数
+	VBZ Verb, 3rd person singular present 动词第三人称单数
+	VBP Verb, non-3rd person singular present 动词非第三人称单数
+	*/
+.verb,
+.VB,
+.VBG,
+.VBD,
+.VBZ,
+.VBN,
+.VBZ,
+.VBP,
+.MD {
+	color: #009b00;
+}
+
+/* JJ Adjective 形容词或序数词
+	JJR Adjective, comparative 形容词比较级
+	JJS Adjective, superlative 形容词最高级 */
+.adjective,
+.JJ,
+JJ,
+JJS {
+	color: red;
+}
+
+/*RB Adverb 副词
+	RBR Adverb, comparative 副词比较级
+	RBS Adverb, superlative 副词最高级
+	*/
+.adverb,
+.RB,
+.RBR,
+.RBS {
+	color: #e89700;
+}
+
+/*TO to 作为介词或不定式格式
+IN Preposition or subordinating conjunction 介词或从属连词
+CC Coordinating conjunction 连接词*/
+.preposition,
+.IN,
+.TO,
+.conjunction,
+.CC {
+	color: #ff8ea1;
+}
+
+/*UH Interjection 感叹词 */
+.interjection,
+.UH {
+	color: yellow;
 }

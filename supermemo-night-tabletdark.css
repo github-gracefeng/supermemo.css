@@ -1,224 +1,389 @@
-BODY
-{
-BACKGROUND-COLOR: #394264;
-COLOR: #f9fdf1;
-FONT-FAMILY: "????";
-FONT-STYLE: normal;
-FONT-WEIGHT: normal;
-FONT-SIZE: 14pt;
-border:1px solid #343142
+BODY {
+  BACKGROUND-COLOR: #394264;
+  COLOR: #fffef7;
+  FONT-FAMILY: "华文宋体";
+  FONT-STYLE: normal;
+  FONT-WEIGHT: normal;
+  FONT-SIZE: 15pt;
+  border: 1px solid #2B2937
 }
 
+/* 设置 html 元素的样式 */
 html {
-height: 100%;
-width: 100%;
-overflow: hidden;
+  height: 100%;
+  /* 高度 */
+  width: 100%;
+  /* 宽度 */
+  overflow: hidden;
+  /* 隐藏横向溢出内容 */
+  white-space: pre-wrap;
+  /* 元素内部保留空格和换行 */
+  word-wrap: break-word;
+  /* 在单词之间断开换行 */
 }
 
-a:link {color:#FF7F27}
-a:visited {color:#ceffd8}
-a:hover {color:#FFF200}
-a:active {color:#fff4ca}
+a:link {
+  color: #FF7F27 !important;
+}
+
+a:visited {
+  color: #FFF200 !important;
+}
+
+a:hover {
+  color: #FFF200 !important;
+}
+
+a:active {
+  color: #FFF200 !important;
+}
 
 HR {
-color:#0c1710;
+  color: #343142;
 }
 
-.img{
-width:100%;
-height:100%;
+/* 设置 img 元素和.img类的样式 */
+img,
+.img {
+  width: auto;
+  /* 宽度自适应 */
+  height: auto;
+  /* 高度自适应 */
+  display: block;
+  /* 显示方式为块级元素 */
+  margin: auto;
+  /* 外边距居中对齐 */
+  outline: none;
+  /* 不显示轮廓线 */
+  BACKGROUND-COLOR: #3c384f;
+  /* 图像的背景颜色 */
 }
 
-img.origin_image {
-	width:100%;
-	height:100%;
-}
-
-.Fuck_Lexicon {
-	position:absolute;
-	top:-9999px;
-	left:-9999px;
-	color:burlywood;
-
-}
-
-.jigsawlatex1 {
-	width:1.5%;
-	height:auto;
-}
-h1 {
-	COLOR: #1bebc1;
-	padding:5px 0;
-	font-weight:800;
-	border-bottom:1px solid #343142;
-	FONT-WEIGHT: bold;
-}
-h2 {
-	COLOR: #1bebc1;
-	padding:5px 0;
-	font-weight:800;
-	FONT-WEIGHT: bold;
-	border-bottom:1px solid #343142;
-}
-h3 {
-	COLOR: #1bebc1;
-	padding:5px 0;
-	font-weight:800;
-	FONT-WEIGHT: bold;
-	border-bottom:1px solid #343142;
-}
-h4 {
-	COLOR: #1bebc1;
-	padding:5px 0;
-	font-weight:800;
-	FONT-WEIGHT: bold;
-	border-bottom:1px solid #343142;
-}
-h5 {
-	COLOR: #1bebc1;
-	padding:5px 0;
-	font-weight:800;
-	FONT-WEIGHT: bold;
-	border-bottom:1px solid #343142;
-	border-right:0px;
-}
+h1,
+h2,
+h3,
+h4,
+h5,
 h6 {
-	COLOR: #1bebc1;
-	padding:5px 0;
-	font-weight:800;
-	FONT-WEIGHT: bold;
-	border-bottom:1px solid #343142;
-	border-right:0px;
+  COLOR: #1bebc1;
+  border-bottom: 1px solid #343142;
+  padding: 5px 0;
+  font-weight: 800;
 }
-.Cloze {
-	COLOR: #FFF200;
-	FONT-WEIGHT: bold;
-	margin:4px;
+
+/* 标题字体大小调整 */
+h1 {
+  font-size: 30px;
 }
+
+h2 {
+  font-size: 26px;
+}
+
+h3 {
+  font-size: 22px;
+}
+
+h4 {
+  font-size: 20px;
+}
+
+h5 {
+  font-size: 18px;
+}
+
+h6 {
+  font-size: 16px;
+}
+
+@font-face {
+  font-family: 'Noto Color Emoji';
+  src: url(https://gitcdn.xyz/repo/googlefonts/noto-emoji/master/fonts/NotoColorEmoji.ttf);
+}
+
+strong {
+  FONT-FAMILY: "华文中宋";
+}
+
+/* 设置 .Cloze 类（挖空和被挖空）的样式*/
+.Cloze,
 .clozed {
-	COLOR: #FFF200;
-	FONT-WEIGHT: bold;
+  COLOR: #FFF200;
+  BACKGROUND-COLOR: #FF7F27;
+  FONT-WEIGHT: bold;
 }
+
 .Extract {
-	BACKGROUND-COLOR: #3c384f;
+  BACKGROUND-COLOR: #3c384f;
 }
+
 .headers {
-	BACKGROUND-COLOR: #FF7F27;
-	COLOR: #343142;
-	FONT-WEIGHT: bold;
+  BACKGROUND-COLOR: #FF7F27;
+  COLOR: #343142;
+  FONT-WEIGHT: bold;
 }
+
 .RefText {
-	BACKGROUND-COLOR: #dcd100;
-	COLOR: #343142;
-	FONT-WEIGHT: bold;
+  BACKGROUND-COLOR: #dcd100;
+  COLOR: #343142;
+  FONT-WEIGHT: bold;
 }
-.Reference
-{
-COLOR: #FFF200;
-FONT-SIZE: 10pt;
-}
-.Highlight
-{
-	COLOR: #FF7F27;
-FONT-WEIGHT: bold;
-FONT-SIZE: 13pt;
-}
-.SearchHighlight
-{
 
-COLOR: #EB88EE;
-;
-FONT-STYLE: normal;
-FONT-WEIGHT: bold;
-FONT-SIZE: 14pt;
+.Reference {
+  COLOR: #FFF200;
+  FONT-SIZE: 10pt;
 }
+
+.Highlight {
+  BACKGROUND-COLOR: #dcd100;
+  COLOR: #343142;
+  FONT-WEIGHT: bold;
+}
+
+.SearchHighlight {
+
+  COLOR: #EB88EE;
+  ;
+  FONT-STYLE: normal;
+  FONT-WEIGHT: bold;
+  FONT-SIZE: 14pt;
+}
+
 .SearchHighlight1 {
-	COLOR:#a0d3ff;
-	FONT-STYLE:normal;
-	FONT-WEIGHT:bold;
+  COLOR: #a0d3ff;
+  FONT-STYLE: normal;
+  FONT-WEIGHT: bold;
 }
+
 .Ignore {
-	BACKGROUND-COLOR: #3c384f;
-	COLOR: #3c384f;
+  BACKGROUND-COLOR: #3c384f;
 }
+
+.Ignore a {
+  COLOR: #3c384f;
+}
+
+table,
+td,
+th {
+  text-align: center;
+  width: auto;
+  border: 1px solid #394264;
+}
+
 table {
-	margin:4rem auto;
+  margin: 4rem auto;
+  border-collapse: collapse;
+  float: auto;
+  /* 根据容器自动悬浮 */
 }
-.TableLabel
-{
-BACKGROUND-COLOR: #CCCCCC;
-COLOR: #525252;
-;
-FONT-STYLE: normal;
-FONT-WEIGHT: normal;
-FONT-SIZE: 14pt;
+
+th {
+  COLOR: #FFF200;
+  background: #3c384f;
+
 }
+
+td {
+  width: auto;
+  box-sizing: border-box;
+  text-align: center;
+  background: #3D4A79;
+}
+
+.TableLabel {
+  BACKGROUND-COLOR: #CCCCCC;
+  COLOR: #525252;
+  ;
+  FONT-STYLE: normal;
+  FONT-WEIGHT: normal;
+  FONT-SIZE: 14pt;
+}
+
 .hint {
-	BACKGROUND-COLOR:#E0E0E0;
+  BACKGROUND-COLOR: #E0E0E0;
 }
+
 .note {
-	FONT-SIZE:smaller;
+  FONT-SIZE: smaller;
 }
+
 .term {
-	background-color:#faeecf;
-	padding-right:0.3em;
+  background-color: #faeecf;
+  padding-right: 0.3em;
 }
-.hashtag {
-	border-radius:15px;
-	background-color:#C0D9D9;
-	padding-right:0.3em;
 
-	FONT-SIZE:12pt;
-	FONT-STYLE:italic;
-}
-.english_tag {
-	border-radius:15px;
-	background-color:#C0D9D9;
-	padding-right:0.3em;
-	FONT-SIZE:11pt;
-
-}
-div.mytag {
-	BACKGROUND-COLOR:#DAB6B6;
-	COLOR:#000000;
-	FONT-WEIGHT:normal;
-	FONT-SIZE:9.3333333333pt;
-	float:right;
-	padding:0 .3em 0 .3em;
-	margin-right:.3em;
-	border-bottom:3px solid #343142;
-}
-ul {
-	border-left:2pt solid #343142;
-	position:relative;
-	padding-left:35pt;
-	padding-top:0pt;
-	margin-top:5pt;
-	margin-bottom:5pt;
-	margin-left:2.5pt;
-}
+/* 有序和无序列表 */
+ul,
 ol {
-	list-style-type:decimal;
-	border-left:2pt solid #343142;
-	position:relative;
-	padding-left:35pt;
-	padding-top:0pt;
-	margin-top:5pt;
-	margin-bottom:5pt;
-	margin-left:2.5pt;
+  border-left: 2pt solid #2B2937;
+  position: relative;
+  padding-left: 35pt;
+  padding-top: 0pt;
+  margin-top: 5pt;
+  margin-bottom: 5pt;
+  margin-left: 2.5pt;
 }
-.grey {
-	BACKGROUND-COLOR:#DAB6B6;
-	COLOR:#000000;
-	FONT-STYLE:italic;
-	FONT-WEIGHT:normal;
-	FONT-SIZE:12pt;
-}
-.schedule {
-	border-radius:15px;
-	background-color:#C0D9D9;
-	padding-right:0.3em;
-	FONT-SIZE:14pt;
 
-background-color: #FAF9DE;
+.grey {
+  BACKGROUND-COLOR: #DAB6B6;
+  COLOR: #000000;
+  FONT-STYLE: italic;
+  FONT-WEIGHT: normal;
+  FONT-SIZE: 12pt;
+}
+
+.schedule {
+  border-radius: 15px;
+  background-color: #C0D9D9;
+  padding-right: 0.3em;
+  FONT-SIZE: 14pt;
+  background-color: #FAF9DE;
+}
+
+/* 视频*/
+iframe {
+  width: auto;
+  height: auto;
+  margin: 0 auto;
+}
+
+/* 音频*/
+embed {
+  width: 300px;
+  height: 45px;
+}
+
+PRE {
+  OVERFLOW: auto;
+  BORDER-TOP: #211F2C 1px solid;
+  BORDER-RIGHT: #211F2C 1px solid;
+  BACKGROUND: #2B2937 center top;
+  BORDER-BOTTOM: #211F2C 1px solid;
+  PADDING-BOTTOM: 10px;
+  PADDING-TOP: 10px;
+  PADDING-LEFT: 15px;
+  BORDER-LEFT: #211F2C 4px solid;
+  MARGIN: 15px auto;
+  PADDING-RIGHT: 15px;
+  TEXT-INDENT: 0px;
+  FONT-FAMILY: "Lucida Console";
+}
+
+CODE {
+  border: 0px;
+  margin: 0px;
+  padding: 0.2em;
+  BACKGROUND: #2B2937 center top;
+  border-radius: 3px;
+  font-weight: bold;
+  FONT-FAMILY: "Lucida Console";
+  font-size: 13px;
+}
+
+button {
+  color: #394264;
+  background-color: #FF7F27;
+  border: 0px;
+  margin: 0px 0px 5px 5px;
+  padding: 4px 10px;
+  font-weight: bold;
+  font-size: 13px;
+  text-align: center;
+  border-radius: 2px;
+  orphans: 2;
+  widows: 2;
+  word-spacing: 0px;
+  border-radius: 8px;
+}
+
+/* 根据词性高亮文本 */
+/* noun 名词
+NN Noun, singular or mass 常用名词 单数形式
+	NNS Noun, plural 常用名词 复数形式
+	NNP Proper noun, singular 专有名词，单数形式
+	NNPS Proper noun, plural 专有名词，复数形式*/
+.noun,
+.NN,
+.NNS,
+.NNP,
+.NNPS {
+  color: #FFF200;
+}
+
+/* pronoun 代词
+PRP Personal pronoun 人称代词
+    PRP Possessive pronoun 所有格代名词
+    WP Wh-pronoun 代词（who whose which）
+    WRB Wh-adverb 疑问代词（how where when）
+    DT Determiner 限定词（this,those,such）不定限定词（any,each,every,either,all,many,other）
+    */
+.pronoun,
+.PRP,
+.WP,
+.WRB,
+.DT {
+  color: #ff00ff;
+}
+
+/* Verb 动词
+MD Modal 情态助动词
+    VB Verb, base form 动词基本形式
+    VBD Verb, past tense 动词过去式
+    VBG Verb, gerund or present participle 动名词和现在分词
+    VBN Verb, past participle 过去分词
+    VBN Verb, non-3rd person singular present 动词非第三人称单数
+    VBZ Verb, 3rd person singular present 动词第三人称单数
+    VBP Verb, non-3rd person singular present 动词非第三人称单数
+    */
+.verb,
+.VB,
+.VBG,
+.VBD,
+.VBZ,
+.VBN,
+.VBZ,
+.VBP,
+.MD {
+  color: #00a6ff;
+}
+
+/* Adjective 形容词
+JJ Adjective 形容词或序数词
+    JJR Adjective, comparative 形容词比较级
+    JJS Adjective, superlative 形容词最高级 */
+.adjective,
+.JJ,
+JJ,
+JJS {
+  color: #ff5100;
+}
+
+/* Adverb 副词
+RB Adverb 副词
+    RBR Adverb, comparative 副词比较级
+    RBS Adverb, superlative 副词最高级
+    */
+.adverb,
+.RB,
+.RBR,
+.RBS {
+  color: #00c20d;
+}
+
+/*TO to 作为介词或不定式格式
+IN Preposition or subordinating conjunction 介词或从属连词
+CC Coordinating conjunction 连接词*/
+.preposition,
+.IN,
+.TO,
+.conjunction,
+.CC {
+  color: #ff8ea1;
+}
+
+/*UH Interjection 感叹词 */
+.interjection,
+.UH {
+  color: #873d00;
 }
