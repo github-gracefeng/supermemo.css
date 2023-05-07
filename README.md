@@ -18,7 +18,9 @@ supermemo-light-spring是我自己使用的白天样式，用我喜欢的暖色�
 [supermemo-night.css](https://github.com/github-gracefeng/supermemo.css/blob/main/supermemo-night-tabletdark.css)
 适用于Tabletdark主题，主要色系是Tabledark的颜色，也是我最常使用的主题，（纯黑主题看腻就换了）
 ![image](https://user-images.githubusercontent.com/119791464/228284032-8d805984-864b-46cb-bf96-e8b62f8bc59e.png)
-
+[supermemo-night-glow.css](https://github.com/github-gracefeng/supermemo.css/blob/main/supermemo-night-tabletdark.css)
+适用于蓝色和黑色的主题（例如Glow），主要色系是Glow的颜色
+![image](https://user-images.githubusercontent.com/119791464/236671186-f28bbc56-5991-43c0-a656-0ca8cc396074.png)
 
 ### 准备
 1. 下载日夜间css文件
