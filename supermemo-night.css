@@ -1,7 +1,7 @@
 BODY {
   BACKGROUND-COLOR: #1e1d1d;
   COLOR: #f0e9da;
-  FONT-FAMILY: "华文宋体";
+  FONT-FAMILY: "思源宋体";
   FONT-STYLE: normal;
   FONT-WEIGHT: normal;
   FONT-SIZE: 15pt;
@@ -73,27 +73,28 @@ h6 {
 }
 
 h1 {
-  font-size: 30px;
+	font-size: 30px;
 }
 
 h2 {
-  font-size: 26px;
+	font-size: 25px;
 }
 
 h3 {
-  font-size: 22px;
+	font-size: 23px;
 }
 
 h4 {
-  font-size: 20px;
+	font-size: 19px;
 }
 
 h5 {
-  font-size: 18px;
+	font-size: 16px;
 }
 
 h6 {
-  font-size: 16px;
+	font-size: 15px;
+
 }
 
 @font-face {
@@ -172,13 +173,13 @@ th {
   text-align: center;
   width: auto;
   border: 1px solid #1e1d1d;
+  float: auto;
+  /* 根据容器自动悬浮 */
 }
 
 table {
   margin: 4rem auto;
   border-collapse: collapse;
-  float: auto;
-  /* 根据容器自动悬浮 */
 }
 
 th {

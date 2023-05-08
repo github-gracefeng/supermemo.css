@@ -4,7 +4,7 @@ BODY {
 	/* 背景颜色 */
 	COLOR: #401b00;
 	/* 字体颜色 */
-	FONT-FAMILY: "华文宋体";
+	FONT-FAMILY: "思源宋体";
 	/* 字体 */
 	FONT-STYLE: normal;
 	/* 字体样式 */
@@ -88,29 +88,30 @@ h6 {
 	font-weight: 800;
 	counter-increment: heading;
 }
+
 /* 标题字体大小调整 */
 h1 {
 	font-size: 30px;
 }
 
 h2 {
-	font-size: 26px;
+	font-size: 25px;
 }
 
 h3 {
-	font-size: 22px;
+	font-size: 23px;
 }
 
 h4 {
-	font-size: 20px;
+	font-size: 19px;
 }
 
 h5 {
-	font-size: 18px;
+	font-size: 16px;
 }
 
 h6 {
-	font-size: 16px;
+	font-size: 15px;
 
 }
 
@@ -194,12 +195,17 @@ strong {
 table,
 td,
 th {
-	text-align: center;
 	/* 文本居中对齐 */
-	width: auto;
+	text-align: center;
 	/* 宽度自适应 */
-	border: 1px solid #CCDFD3;
+	width: auto;
 	/* 边框 */
+	border: 1px solid #CCDFD3;
+	/* 根据容器自动悬浮 */
+	float: auto;
+	/* 外边距居中对齐 */
+	border-collapse: collapse;
+
 }
 
 /* 设置 table 元素的样式 */
@@ -207,11 +213,6 @@ table {
 	FONT-FAMILY: "华文中宋";
 	/* 字体 */
 	margin: 4rem auto;
-	/* 外边距居中对齐 */
-	border-collapse: collapse;
-	/* 边框合并为一条线 */
-	float: auto;
-	/* 根据容器自动悬浮 */
 }
 
 /* 设置 th 元素的样式 */
